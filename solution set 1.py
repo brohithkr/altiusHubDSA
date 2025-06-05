@@ -12,4 +12,10 @@ s: str = input()
 
 s = s.lower()
 
+cleans = ""
+
+for i in s:
+    if i.isalnum():
+        cleans += i
+
 print(isPalindrome(s))
