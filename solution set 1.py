@@ -18,4 +18,4 @@ for i in s:
     if i.isalnum() and i != " ":
         cleans += i
 
-print(isPalindrome(s))
+print(isPalindrome(cleans))
