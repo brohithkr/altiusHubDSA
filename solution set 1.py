@@ -15,7 +15,7 @@ s = s.lower()
 cleans = ""
 
 for i in s:
-    if i.isalnum():
+    if i.isalnum() and i != " ":
         cleans += i
 
 print(isPalindrome(s))
